@@ -11,8 +11,16 @@ public class AreaOfCircle {
             Hint 4: To get float, use nextFloat()       */
 
         Scanner scan =new Scanner(System.in);
+        System.out.println("Enter the radius of circle");
+        float radius= scan.nextFloat();
+        float piNumber= 3.14159F;
 
- 
+
+        System.out.println("Area of circle is " + (piNumber*radius*radius));
+        System.out.println("==============");
+        System.out.println("Perimeter of a circle is " + (2*piNumber*radius));
+
+
 
 
 
